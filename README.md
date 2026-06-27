@@ -383,7 +383,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## 📧 Kontak
 
-Project Link: [https://github.com/username/clinic-registration-system](https://github.com/username/clinic-registration-system)
+Project Link: [https://github.com/ardenpratamamaskuri404/Project-Clinic-Registration-System]
 
 ---
 

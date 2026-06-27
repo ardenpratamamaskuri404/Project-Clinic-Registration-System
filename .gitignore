@@ -1,4 +1,122 @@
+# ===================================
+# CLINIC REGISTRATION SYSTEM
+# Git Ignore File
+# ===================================
+
+# ===================================
+# Node.js / npm
+# ===================================
 node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# ===================================
+# Environment Variables
+# ===================================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env
+
+# ===================================
+# Build / Dist
+# ===================================
+dist/
+dist-ssr/
+build/
+*.local
+
+# ===================================
+# Logs
+# ===================================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ===================================
+# OS Generated Files
+# ===================================
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
 Thumbs.db
+Desktop.ini
+
+# ===================================
+# IDE / Editor
+# ===================================
 .vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# ===================================
+# Prisma
+# ===================================
+prisma/.env
+*.db
+*.db-journal
+migrations/
+
+# ===================================
+# Testing
+# ===================================
+coverage/
+*.cover
+.nyc_output/
+.cache/
+
+# ===================================
+# Temporary Files
+# ===================================
+*.tmp
+*.temp
+.temp/
+tmp/
+
+# ===================================
+# Package Manager Locks (Optional)
+# Uncomment if you want to ignore lock files
+# ===================================
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# ===================================
+# Database Backups (Keep .sql files)
+# ===================================
+*.sql.backup
+*.sql~
+
+# ===================================
+# Sensitive Data
+# ===================================
+secrets/
+credentials/
+*.pem
+*.key
+*.cert
+
+# ===================================
+# Documentation (Keep these)
+# ===================================
+# !README.md
+# !*.md
+# !database.sql
